@@ -2,7 +2,6 @@
 """
 This script finds dbt models that failed during the last run,
 and then finds every other model that depends on those failed models.
-It prints a simple report and can create a graph file to visualize the dependencies.
 
 Run this script with:
     python lineage_breakage.py
