@@ -32,13 +32,3 @@ All IMPACTED downstream models (including failed):
   - my_model_b
   - my_model_c
 
-# Project Structure
-
-dbt-failure-impact-analyzer/
-│
-├── target/
-│   ├── manifest.json
-│   └── run_results.json
-│
-├── lineage_breakage.py     # Main analysis script
-└── README.md
